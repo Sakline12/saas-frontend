@@ -1,0 +1,35 @@
+.back{
+  background: rgb(12,41,62);
+background: linear-gradient(90deg, rgba(12,41,62,1) 7%, rgba(6,70,103,1) 24%, rgba(4,71,85,1) 39%, rgba(6,99,92,1) 53%, rgba(22,100,109,1) 69%, rgba(11,71,87,1) 82%, rgba(8,88,110,1) 91%);
+}
+.custom-dropdown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.custom-card {
+  transition: transform 0.3s;
+}
+.new{
+  background-color: lightcyan;
+}
+.new:hover{
+  border-color: rgb(126, 224, 126);
+}
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 767.98px) {
+  .top-0,
+  .start-0,
+  .translate-middle {
+    display:contents;
+  }
+  
+}
+
+
+
+
